@@ -1,4 +1,4 @@
-# PatternDesign
+# Design Pattern
 Implementation of software design patterns explained in COMP303 textbook <br /> <br />
 Patterns:
 - Iterator

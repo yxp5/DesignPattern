@@ -1,6 +1,6 @@
-# DesignPattern
-Implementation of software design patterns explained in COMP303 textbook <br />
-Design patterns:
+# PatternDesign
+Implementation of software design patterns explained in COMP303 textbook <br /> <br />
+Patterns:
 - Iterator
 - Strategy
 - Flyweight

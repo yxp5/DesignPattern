@@ -1,6 +1,6 @@
 # Design Pattern
-Implementation of software design patterns explained in COMP303 <a href="https://link.springer.com/book/10.1007/978-3-030-24094-3">textbook</a> <br/> <br/>
-Mega thanks to <a href="https://github.com/prmr">Professor Robillard</a> for allowing me making this repo. You can find the complete course <a href="https://github.com/prmr/SoftwareDesign">here</a> <br/> <br/>
+Implementation of software design patterns explained in COMP303 <a href="https://link.springer.com/book/10.1007/978-3-030-24094-3" target="_blank">textbook</a> <br/> <br/>
+Mega thanks to <a href="https://github.com/prmr" target="_blank">Professor Robillard</a> for allowing me making this repo. You can find the complete course <a href="https://github.com/prmr/SoftwareDesign" target="_blank">here</a> <br/> <br/>
 Patterns:
 - Iterator
 - Strategy

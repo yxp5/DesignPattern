@@ -1,5 +1,5 @@
 # Design Pattern
-Implementation of software design patterns explained in COMP303 textbook <br /> <br />
+Implementation of software design patterns explained in COMP303 textbook <br/> <br/>
 Patterns:
 - Iterator
 - Strategy
@@ -12,3 +12,5 @@ Patterns:
 - Template
 - Observer
 - Visitor
+<br/><br/><br/>
+P.S. All implementations are practice exercises to prepare for the final exam of COMP303. Thus please take<s> a grain of salt</s> an ocean of salt for the correctness of all codes found here

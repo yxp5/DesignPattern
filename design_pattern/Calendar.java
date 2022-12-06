@@ -3,7 +3,7 @@ package design_pattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Calendar {
+public class Calendar implements CompositeBase {
 
     private final List<Date> aMonths = new ArrayList<>();
     private final Year aYear;
@@ -28,5 +28,10 @@ public class Calendar {
             builder.append("\n");
         }
         return builder.toString();
+    }
+
+    @Override
+    public String details() {
+        return String.format("Year %s\n", aYear.name());
     }
 }

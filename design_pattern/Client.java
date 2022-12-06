@@ -11,6 +11,7 @@ public class Client {
     public static IteratingCalendar iteratingCalendar = new IteratingCalendar(Year.ONE);
 
     public static void main(String[] args) {
+
         System.out.println(iteratingCalendar);
     }
 }

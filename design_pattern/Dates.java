@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-// An arbitrary list of Date
+// An arbitrary list of Date used in Strategy
 public class Dates {
 
     private final List<Date> aDates = new ArrayList<>();

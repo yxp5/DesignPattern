@@ -15,12 +15,15 @@ public class SingletonCalendar {
     }
 
     public void newCalendar(Year pYear) {
+        assert pYear != null;
         aMonths.clear();
         aYear = pYear;
         for (Month aMonth : Month.values()) {
             aMonths.add(new Date(aMonth, pYear));
         }
     }
+
+    public Year year() {return aYear;}
 
     public static SingletonCalendar instance() {
         return INSTANCE;
@@ -46,6 +49,6 @@ public class SingletonCalendar {
 
         SingletonCalendar INSTANCE2 = SingletonCalendar.instance();
         System.out.println(INSTANCE2);
-        System.out.println(INSTANCE.equals(INSTANCE2));
+        System.out.println(INSTANCE == INSTANCE2);
     }
 }

@@ -10,8 +10,6 @@ public class Dates {
 
     private final List<Date> aDates = new ArrayList<>();
 
-    public Dates() {}
-
     public Dates(Date... pDates) {
         addAll(pDates);
     }

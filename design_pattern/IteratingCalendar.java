@@ -30,6 +30,7 @@ public class IteratingCalendar implements Iterable<Date> {
     public String toString() {
         StringBuilder builder = new StringBuilder();
         Iterator<Date> iterate = this.iterator();
+        // Here, I have the moral obligation to use hasNext() and next() instead of enhanced for-loop
         while (iterate.hasNext()) {
             builder.append(iterate.next().toString());
             builder.append("\n");

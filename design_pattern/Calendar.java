@@ -34,4 +34,9 @@ public class Calendar implements CompositeBase {
     public String details() {
         return String.format("Year %s\n", aYear.name());
     }
+
+    @Override
+    public Calendar copy() {
+        return new Calendar(aYear);
+    }
 }

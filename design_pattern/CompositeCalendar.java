@@ -26,6 +26,15 @@ public class CompositeCalendar implements CompositeBase {
                 .collect(Collectors.joining()) + "End\n";
     }
 
+    @Override
+    public CompositeCalendar copy() {
+        CompositeCalendar copy = new CompositeCalendar();
+        for (CompositeBase base : aComposite) {
+            copy.add(base.copy());
+        }
+        return copy;
+    }
+
     public static void main(String[] args) {
         // Test for composite recursion correctness
         CompositeCalendar compositeCalendar = new CompositeCalendar();

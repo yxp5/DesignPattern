@@ -14,4 +14,4 @@ Patterns:
 - Observer
 - Visitor
 <br/><br/><br/>
-P.S. All implementations are practice exercises to prepare for the final exam of COMP303. Please take <s>a grain of salt</s> <b>an ocean of salt</b> for the correctness of all codes found here
+P.S. All implementations are my practice exercises to prepare for the final exam of COMP303. Please take <s>a grain of salt</s> <b>an ocean of salt</b> for the correctness of all codes found here
